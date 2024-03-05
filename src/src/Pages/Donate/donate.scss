@@ -1,0 +1,207 @@
+@import '../../styles/main.scss';
+
+.donate {
+  padding: 48px 20px 32px;
+  background: $color--Beige-100;
+
+  @include onTablet {
+    padding: 48px 76px 80px;
+  }
+
+  @include onDesktop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @include onMaxDesktop {
+    padding: 48px 238px 80px;
+  }
+
+  &__wrapper {
+    margin: 0 auto;
+    width: 507px;
+  }
+
+  &__title {
+    color: $color--Dark-1000;
+    text-align: start;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 124%;
+
+    @include onTablet {
+      font-size: 64px;
+      line-height: 67px;
+      letter-spacing: -0.02em;
+      text-align: left;
+    }
+  }
+
+  &__tabs {
+    display: flex;
+    gap: 8px;
+
+    margin-top: 32px;
+
+    &--once {
+      padding: 8px 16px;
+      height: 44px;
+
+      border: none;
+      border-radius: 100px;
+      background-color: $color--Primary-700;
+
+      color: $color--Beige-0;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 124%;
+    }
+
+    &--monthly {
+      padding: 8px 16px;
+      height: 44px;
+
+      border: none;
+      border-radius: 100px;
+      background-color: $color--Primary-100;
+
+      color: $color--Primary-500;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 124%;
+    }
+  }
+
+  &__sum {
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: $color--Beige-50;
+
+    &--wrapper {
+      display: flex;
+      padding-bottom: 8px;
+    }
+
+    &--number {
+      border: none;
+
+      min-width: 172px;
+      background-color: $color--Beige-50;
+
+      color: $color--Beige-text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 124%;
+    }
+
+    &--select {
+      background-color: $color--Beige-300;
+      border-radius: 100px;
+
+      color: $color--Beige-text;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 124%;
+      letter-spacing: -0.64px;
+    }
+
+    &--buttons {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 8px;
+
+      margin-top: 16px;
+    }
+
+    &--button {
+      padding: 8px 16px;
+      height: 44px;
+
+      border: none;
+      border-radius: 100px;
+      background-color: $color--Primary-100;
+
+      color: $color--Primary-500;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 124%;
+    }
+  }
+
+  &__info {
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: $color--Beige-50;
+
+    &--inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    &--input {
+      padding: 13px 16px;
+      height: 48px;
+      width: 100%;
+
+      border-radius: 8px;
+      border: 1px solid $color--Beige-300;
+
+      &::placeholder {
+        color: $color--Beige-text;
+        font-size: 18px;
+        font-style: normal;
+      }
+    }
+
+    &--label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 24px;
+      gap: 10px;
+
+      cursor: pointer;
+    }
+
+    &--checkbox {
+      width: 20px;
+      height: 20px;
+    }
+
+    &--title {
+      color: $color--Dark-1000;
+
+      font-style: normal;
+      line-height: 124%;
+    }
+
+    &--link {
+      color: $color--Primary-900;
+    }
+  }
+
+  &__image {
+    display: none;
+    width: 611px;
+    height: 760px;
+    border-radius: 32px;
+
+    background: url(../../img/donate-vector.svg) center no-repeat;
+
+    @include onDesktop {
+      display: block;
+    }
+
+    &--photo {
+      padding: 131px 72px;
+    }
+  }
+}

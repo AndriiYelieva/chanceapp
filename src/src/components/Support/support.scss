@@ -1,0 +1,83 @@
+@import '../../styles/main.scss';
+
+.support {
+  padding: 64px 20px 128px;
+
+  background-color: $color--Primary-700;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../img/vector-support.svg");
+
+  @include onTablet {
+    padding: 185px 78px 370px;
+    
+    background-size: contain;
+    background-image: url("../../img/vector-support-desktop.svg");
+  }
+
+  &__title {
+    color: $color--Beige-0;
+    text-align: center;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 124%;
+
+    @include onTablet {
+      font-size: 64px;
+      line-height: 67px;
+      letter-spacing: -0.02em;
+    }
+  }
+
+  &__message {
+    max-width: 324px;
+    margin: 0 auto;
+    
+    @include onTablet {
+      max-width: 712px;
+      width: 712px;
+    }
+
+    @include onMaxDesktop {
+      width: 712px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: $color--Beige-0;
+    text-align: center;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 124%;
+
+    @include onTablet {
+      font-size: 64px;
+      line-height: 67px;
+      letter-spacing: -0.02em;
+    }
+  }
+
+  &__avatars {
+    width: 80px;
+    height: 40px;
+
+    @include onTablet {
+      width: 156px;
+      height: 68px;
+    }
+  }
+
+  &__support {
+    margin: 24px 0 48px;
+    color: $color--Primary-300;
+    text-align: center;
+    font-feature-settings: 'calt' off;
+    font-size: 16px;
+    line-height: 124%;
+  }
+}

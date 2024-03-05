@@ -1,0 +1,82 @@
+@import '../../styles/main.scss';
+
+.cookies {
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+  padding: 16px 20px;
+  background-color: $color--Beige-0;
+
+  @include onTablet {
+    width: 262px;
+    left: 36px;
+    bottom: 36px;
+    padding: 16px 24px 16px 16px;
+    border-radius: 16px;
+  }
+
+  &__images {
+    display: flex;
+    gap: 4px;
+  }
+
+  &__title {
+    margin-top: 16px;
+
+    color: $color--Dark-1000;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 124%;
+  }
+
+  &__buttons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  &__button {
+    padding: 8px 16px;
+    width: 100%;
+    border: none;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124%;
+
+    &--more {
+      background-color: $color--Primary-100;
+      color: $color--Primary-500;
+
+      &:hover {
+        background-color: $color--Primary-200;
+      }
+    }
+
+    &--close {
+      cursor: pointer;
+
+      color: $color--Primary-700;
+      background-color: $color--Beige-0;
+
+      &:hover {
+        background-color: $color--Beige-200;
+      }
+
+      @include onTablet {
+        width: 120px;
+      }
+    }
+  }
+}

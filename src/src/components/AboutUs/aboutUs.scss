@@ -1,0 +1,255 @@
+@import '../../styles/main.scss';
+
+.about {
+  padding: 64px 20px 0;
+  background: $color--Beige-100;
+
+  @include onTablet {
+    padding: 160px 78px 0;
+  }
+
+  @include onMaxDesktop {
+    padding: 160px 238px 0;
+  }
+
+  &__wrapper {
+    display: block;
+
+    @include onTablet {
+      display: flex;
+      gap: 126px;
+    }
+  }
+
+  &__avatar {
+    padding: 16px 16px 8px;
+    border-radius: 16px;
+
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background: $color--Beige-50;
+
+    @include onTablet {
+      width: 190px;
+      background: none;
+    }
+
+    &--photo {
+      width: 68px;
+      height: 68px;
+
+      @include onTablet {
+        width: 102px;
+        height: 102px;
+      }
+    }
+
+    &--description {
+      margin-top: 16px;
+
+      color: $color--Dark-1000;
+      font-style: normal;
+      line-height: 116%;
+
+      @include onTablet {
+        font-size: 16px;
+      }
+    }
+
+    &--link {
+      margin-top: 16px;
+
+      padding-right: 24px;
+      display: flex;
+      align-items: center;
+
+      color: $color--Primary-700;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 124%;
+
+      background: url('../../img/arrow-link.svg') no-repeat right;
+    }
+  }
+
+  &__text {
+    @include onTablet {
+      width: 506px;
+    }
+
+    &--socialisation {
+      margin-top: 48px;
+      color: $color--Dark-1000;
+
+      font-size: 28px;
+      font-style: normal;
+      line-height: 124%;
+      letter-spacing: -0.56px;
+
+      @include onTablet {
+        margin: 0;
+
+        font-size: 48px;
+        line-height: 67px;
+        letter-spacing: -0.02em;
+        text-align: left;
+      }
+
+      @include onDesktop {
+        font-size: 64px;
+      }
+    }
+
+    &--app {
+      margin-top: 24px;
+
+      color: $color--Beige-text;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 124%;
+
+      @include onTablet {
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        text-align: left;
+      }
+
+      @include onDesktop {
+        width: 468px;
+      }
+    }
+  }
+
+  &__list {
+    &--mobile {
+      margin-top: 64px;
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      @include onTablet {
+        margin-top: 80px;
+      }
+
+      @include onDesktop {
+        display: none;
+      }
+    }
+
+    &--desktop {
+      display: none;
+
+      justify-content: center;
+      flex-wrap: wrap;
+
+      gap: 40px 20px;
+      margin-top: 100px;
+
+      @include onDesktop {
+        display: flex;
+      }
+    }
+  }
+
+  &__swiper {
+    @include onDesktop {
+      display: none;
+    }
+  }
+
+  &__slide {
+    width: 236px;
+    height: 360px;
+
+    @include onDesktop {
+      width: 296px;
+      height: 526px;
+
+      &:hover {
+        transform: scale(1.05) ;
+      }
+    }
+
+    @include onMaxDesktop {
+      width: 346px;
+    }
+
+    &--none {
+      display: none;
+
+      width: 296px;
+      height: 526px;
+
+      border-radius: 16px;
+      background-color: $color--Beige-200;
+
+      @include onDesktop {
+        display: block;
+      }
+
+      @include onMaxDesktop {
+        width: 346px;
+      }
+    }
+
+    &--photo {
+      height: 264px;
+
+      border-radius: 16px;
+
+      @include onDesktop {
+        height: 400px;
+      }
+
+      @include onMaxDesktop {
+        width: 346px;
+      }
+    }
+
+    &--name {
+      margin-top: 16px;
+      color: $color--Dark-1000;
+
+      line-height: 124%;
+      letter-spacing: -0.48px;
+
+      @include onDesktop {
+        margin-top: 24px;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: left;
+      }
+    }
+
+    &--surname {
+      margin-top: -4px;
+
+      color: $color--Dark-1000;
+      line-height: 124%;
+      letter-spacing: -0.48px;
+
+      @include onDesktop {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: left;
+      }
+    }
+
+    &--role {
+      margin-top: 8px;
+
+      color: $color--Beige-text;
+      line-height: 116%;
+
+      @include onDesktop {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+      }
+    }
+  }
+}

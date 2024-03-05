@@ -1,0 +1,238 @@
+@import '../../styles/main.scss';
+
+.footer {
+  padding: 64px 20px 12px;
+  background-color: $color--Primary-900;
+
+  @include onTablet {
+    text-align: center;
+    padding: 160px 78px 12px;
+  }
+
+  &__wrapper {
+    @include onDesktop {
+      display: flex;
+      justify-content: space-between
+    }
+  }
+
+  &__head {
+    @include onDesktop {
+      text-align: left;
+    }
+
+    &--title {
+      color: $color--Beige-50;
+
+      font-family: "Caveat";
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 100%;
+      letter-spacing: -1.28px;
+    }
+
+    &--description {
+      color: $color--Primary-200;
+
+      font-size: 16px;
+      font-style: normal;
+      line-height: 124%;
+    }
+  }
+
+  &__contacts {
+    &--links {
+      display: flex;
+
+      @include onTablet {
+        justify-content: center;
+      }
+
+      @include onDesktop {
+        justify-content: left;
+      }
+    }
+
+    &--email {
+      margin: 32px auto 24px;
+      color: $color--Beige-50;
+
+      font-size: 18px;
+      line-height: 124%;
+    }
+
+    &--description {
+      color: $color--Primary-200;
+
+      text-align: left;
+      line-height: 116%;
+    }
+
+    &--link {
+      width: 56px;
+      height: 56px;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    &--facebook {
+      background: url("../../img/facebook-icon.svg") no-repeat center;
+    }
+
+    &--instagram {
+      background: url("../../img/instagram-icon.svg") no-repeat center;
+    }
+
+    &--tiktok {
+      background: url("../../img/tiktok-icon.svg") no-repeat center;
+    }
+  }
+
+  &__menu {
+    margin-top: 48px;
+
+    @include onDesktop {
+      width: 296px;
+      margin: 0;
+
+      text-align: left;
+    }
+
+    &--title {
+      color: $color--Beige-50;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 124%;
+    }
+
+    &--list {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    &--link {
+      color: $color--Beige-50;
+
+      font-size: 16px;
+      line-height: 124%;
+
+      &:hover {
+        color: $color--Yellow-600;
+        transform: scale(1.1);
+      }
+
+      // &:first-child {
+      //   color: $color--Yellow-600;
+      // }
+    }
+  }
+
+  &__download {
+    position: relative;
+
+    margin: 48px auto 0;
+    width: 280px;
+    height: 280px;
+    border-radius: 16px;
+
+    background-size: contain;
+    background: url("../../img/png/download-mobile.png") no-repeat center;
+
+    @include onDesktop {
+      margin: 0;
+      width: 402px;
+      height: 388px;
+      background: url("../../img/png/download.png") no-repeat center;
+    }
+
+    &--text {
+      padding: 16px 0 0 16px;
+      width: 148px;
+
+      color: $color--Dark-1000;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 124%;
+
+      @include onDesktop {
+        padding: 0;
+        margin: 16px 0 0 16px;
+
+        font-size: 18px;
+        text-align: left;
+      }
+    }
+
+    &--qr {
+      position: absolute;
+      bottom: 16px;
+      right: 16px;
+
+      width: 120px;
+      height: 120px;
+
+      padding: 8px;
+      border-radius: 8px;
+      background: $color--Beige-0;
+    }
+  }
+
+  &__down {
+    color: $color--Primary-200;
+    line-height: 116%;
+
+    &--wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      margin-top: 32px;
+
+      @include onDesktop {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+
+    &--link {
+      font-size: 14px;
+      line-height: 16px;
+
+      @include onDesktop {
+        width: 296px;
+
+        &:not(:first-child):hover {
+          color: $color--Yellow-600;
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    &--developed {
+      margin-top: 32px;
+
+      @include onDesktop {
+        margin: 0;
+      }
+    }
+  }
+
+  &__power {
+    display: none;
+    margin: 48px auto 0;
+
+    min-width: 280px;
+    min-height: 48px;
+
+    @include onTablet {
+      display: block;
+    }
+  }
+}

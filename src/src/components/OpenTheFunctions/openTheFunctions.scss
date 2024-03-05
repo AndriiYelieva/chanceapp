@@ -1,0 +1,192 @@
+@import '../../styles/main.scss';
+
+.functions {
+  padding: 64px 20px 0;
+  background: $color--Beige-50;
+
+  @include onDesktop {
+    padding: 126px 184px 0;
+  }
+
+  @include onMaxDesktop {
+    padding: 160px 238px 0;
+  }
+
+  &__title {
+    &--functions {
+      color: $color--Dark-1000;
+      text-align: center;
+      font-size: 32px;
+      line-height: 124%;
+      letter-spacing: -0.64px;
+
+      @include onDesktop {
+        font-size: 64px;
+        line-height: 67px;
+        letter-spacing: -0.02em;
+      }
+    }
+
+    &--access {
+      margin-top: -12px;
+
+      color: $color--Dark-1000;
+      text-align: center;
+      font-family: 'Caveat';
+      font-size: 52px;
+      font-weight: 400;
+      line-height: 100%;
+      letter-spacing: -1.04px;
+
+      @include onDesktop {
+        font-size: 92px;
+        line-height: 74px;
+        letter-spacing: -0.02em;
+      }
+    }
+
+    &--horizons {
+      margin-top: 24px;
+      color: $color--Beige-text;
+      text-align: center;
+
+      font-size: 16px;
+      font-style: normal;
+
+      line-height: 124%;
+
+      @include onDesktop {
+        margin-top: 40px;
+
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+      }
+    }
+  }
+
+  &__list {
+    margin-top: 48px;
+    padding-bottom: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    @include onDesktop {
+      margin-top: 120px;
+      padding-bottom: 160px;
+
+      gap: 80px;
+    }
+  }
+
+  &__card {
+
+    @include onTablet {
+      display: flex;
+      margin: 0 auto;
+      gap: 126px;
+
+      &:nth-child(2) {
+        flex-direction: row-reverse;
+
+      }
+    }
+
+    @include onDesktop {
+      width: 1032px;
+      padding-right: 104px;
+
+      &:nth-child(2) {
+        padding: 0 0 0 104px;
+      }
+    }
+
+    &--photo {
+      margin: 0 auto;
+
+      @include onTablet {
+        margin: 0;
+      }
+    }
+
+    &--wrapper {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @include onTablet {
+        width: 296px;
+      }
+    }
+
+    &--name {
+      color: $color--Dark-1000;
+      font-size: 24px;
+      font-style: normal;
+      line-height: 124%;
+      letter-spacing: -0.48px;
+
+      @include onTablet {
+        text-align: left;
+      }
+
+      @include onDesktop {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+      }
+    }
+
+    &--description {
+      margin-top: 8px;
+
+      color: $color--Beige-text;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 124%;
+
+      @include onTablet {
+        text-align: left;
+      }
+
+      @include onDesktop {
+        margin-top: 24px;
+
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0px;
+      }
+    }
+
+    &--items {
+      margin-top: 24px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      @include onDesktop {
+        margin-top: 40px;
+      }
+    }
+
+    &--item {
+      display: flex;
+      align-items: center;
+
+      @include onTablet {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+    }
+
+    &--img {
+      margin-right: 8px;
+    }
+  }
+}

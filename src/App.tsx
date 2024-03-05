@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import { Home } from './src/Pages/Home'
+import { PrivacyPolicy } from './src/Pages/PrivacyPolicy'
+// import { Donate } from './Pages/Donate';
+import { NotFound } from './src/Pages/NotFound'
+
+import './src/i18n'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter  >
+      <Routes>
+        <Route path="/chanceapp/" element={<Home />}></Route>
+        {/* <Route path="/chanceapp/donate" element={<Donate />}/> */}
+        <Route path="/chanceapp/privacy-policy" element={<PrivacyPolicy />}/>
+        <Route path="/chanceapp/terms-of-use" element={<PrivacyPolicy />}/>
+
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,40 @@
+@import '../../styles/main.scss';
+
+.presentation {
+  &__button {
+    border-radius: 100px;
+    border: none;
+    background-color: $color--Primary-100;
+    cursor: pointer;
+
+    padding: 8px 16px;
+
+    color: $color--Primary-500;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124%;
+
+    &:hover {
+      background-color: $color--Primary-200;
+    }
+  }
+
+  &__medium {
+    display: flex;
+    min-width: 280px;
+    max-width: 320px;
+    height: 48px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+
+    margin: 12px auto 0;
+  }
+
+  &__large {
+    display: flex;
+    margin: 32px auto;
+  }
+}

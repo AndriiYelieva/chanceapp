@@ -1,0 +1,178 @@
+@import '../../styles/main.scss';
+
+.header {
+  position: sticky;
+
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  background: $color--Beige-100;
+
+  &__logo {
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../img/logo.svg');
+
+    @include onDesktop {
+      margin-right: 32px;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__subheader {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+
+    background: $color--Primary-900;
+
+    @include onTablet {
+      justify-content: space-between;
+    }
+
+    @include onDesktop {
+      padding: 12px 78px;
+      font-size: 16px;
+    }
+
+    @include onMaxDesktop {
+      padding: 0 238px;
+    }
+
+    &--text {
+      min-width: 284px;
+      color: $color--Beige-0;
+      line-height: 16.24px;
+      word-wrap: break-word;
+
+      @include onDesktop {
+        font-size: 16px;
+      }
+    }
+
+    &--button {
+      padding: 10px;
+
+      cursor: pointer;
+      border: none;
+      background: url('../../img/close-sub-header.svg') no-repeat center;
+
+      @include onDesktop {
+        display: none;
+      }
+    }
+
+    &--click {
+      display: none;
+      padding-right: 152px;
+
+      background: url("../../img/arrow-sub-header.svg") no-repeat;
+      background-position: 2% 40%;
+
+      color: $color--Beige-0;
+      font-family: 'Caveat';
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+
+      @include onDesktop {
+        display: block;
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    padding: 8px 20px;
+    justify-content: space-between;
+
+    background: $color--Beige-100;
+
+    @include onDesktop {
+      padding: 12px 78px;
+      font-size: 16px;
+    }
+
+    @include onMaxDesktop {
+      padding: 12px 238px;
+    }
+
+    &--links {
+      display: flex;
+      align-items: center;
+
+      gap: 8px;
+    }
+
+    &--link {
+      display: none;
+      align-items: center;
+      padding: 12px 8px;
+
+      &:hover {
+        border-radius: 100px;
+        background: $color--Beige-200;
+      }
+
+      @include onDesktop {
+        display: block;
+      }
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__language {
+    display: none;
+
+    @include onDesktop {
+      display: block;
+    }
+  }
+
+  &__button {
+    display: block;
+
+    padding: 8px;
+    margin-left: 8px;
+    height: 24px;
+    width: 24px;
+
+    border: none;
+    background-color: $color--Dark-1000;
+    cursor: pointer;
+
+    @include onDesktop {
+      display: none;
+    }
+
+    &:hover {
+      fill: $color--Dark-800;
+    }
+
+    &--menu {
+      background: url('../../img/menu.svg') no-repeat center;
+    }
+
+    &--close {
+      fill: $color--Dark-1000;
+      background: url('../../img/close.svg') no-repeat center;
+    }
+  }
+}
