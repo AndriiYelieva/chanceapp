@@ -20,23 +20,23 @@ export const en = {
   "navigation": [
     {
       "title": "for whom",
-      "link": "/#about-people",
+      "link": "/chanceapp/#about-people",
     },
     {
       "title": "features",
-      "link": "/#opportunity",
+      "link": "/chanceapp/#opportunity",
     },
     {
       "title": "about",
-      "link": "/#about-us",
+      "link": "/chanceapp/#about-us",
     },
     {
       "title": "questions",
-      "link": "/#faq",
+      "link": "/chanceapp/#faq",
     },
     {
       "title": "contacts",
-      "link": "/#contacts",
+      "link": "/chanceapp/#contacts",
     }
   ],
 
@@ -255,11 +255,11 @@ export const en = {
     },
     {
       title: "Privacy Policy",
-      link: "/privacy-policy",
+      link: "/chanceapp/privacy-policy",
     },
     {
       title: "Terms of Use",
-      link: "/terms-of-use",
+      link: "/chanceapp/terms-of-use",
     },
     {
       title: "design by @yasdubin",

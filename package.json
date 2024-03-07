@@ -1,5 +1,6 @@
 {
-  "homepage": "https://AndriiYlieva.github.io/",
+  "name": "chanceapp",
+  "homepage": "https://AndriiYlieva.github.io/chanceapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

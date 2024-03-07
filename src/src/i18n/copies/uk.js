@@ -20,23 +20,23 @@ export const uk = {
   "navigation": [
     {
       "title": "для кого",
-      "link": "/#about-people",
+      "link": "/chanceapp/#about-people",
     },
     {
       "title": "можливості",
-      "link": "/#opportunity",
+      "link": "/chanceapp/#opportunity",
     },
     {
       "title": "про нас",
-      "link": "/#about-us",
+      "link": "/chanceapp/#about-us",
     },
     {
       "title": "питання",
-      "link": "/#faq",
+      "link": "/chanceapp/#faq",
     },
     {
       "title": "контакти",
-      "link": "/#contacts",
+      "link": "/chanceapp/#contacts",
     }
   ],
 
@@ -256,11 +256,11 @@ export const uk = {
     },
     {
       title: "Політика конфіденційності",
-      link: "/privacy-policy",
+      link: "/chanceapp/privacy-policy",
     },
     {
       title: "Умови користування",
-      link: "/terms-of-use",
+      link: "/chanceapp/terms-of-use",
     },
     {
       title: "дизайн від @yasdubin",
