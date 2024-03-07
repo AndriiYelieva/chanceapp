@@ -20,7 +20,4 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-, "index.ts, "react-app-env.d.ts"x", "App.tsx", "reportWebVitals.ts", "setupTests.ts"  ]
 }

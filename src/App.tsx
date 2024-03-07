@@ -12,10 +12,10 @@ function App() {
   return (
     <BrowserRouter  >
       <Routes>
-        <Route path="/chanceapp/" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         {/* <Route path="/chanceapp/donate" element={<Donate />}/> */}
-        <Route path="/chanceapp/privacy-policy" element={<PrivacyPolicy />}/>
-        <Route path="/chanceapp/terms-of-use" element={<PrivacyPolicy />}/>
+        <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
+        <Route path="/terms-of-use" element={<PrivacyPolicy />}/>
 
         <Route path="*" element={<NotFound />} />
       </Routes>
