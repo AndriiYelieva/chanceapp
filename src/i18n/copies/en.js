@@ -15,7 +15,6 @@ import Andrii from "../../img/png/Andrii-Sukhmanovskyi.png";
 import Ivan from "../../img/png/Ivan-Levytskyi.png";
 import Sofia from "../../img/png/Sofia-Mandziuk.png";
 import Natalia from "../../img/png/Natalia-Fedotova.png";
-import Viktor from "../../img/png/Viktor-Turkevych.png";
 
 export const en = {
   "navigation": [
@@ -181,43 +180,24 @@ export const en = {
     },
     {
       id: 2,
-      role: null,
-    },
-    {
-      id: 3,
       photo: Ivan,
       name: "Ivan",
       surname: "Levytskyi",
       role: "financial manager",
     },
     {
-      id: 4,
+      id: 3,
       photo: Sofia,
       name: "Sofia",
       surname: "Mandziuk",
       role: "marketing manager",
     },
     {
-      id: 5,
-      role: null,
-    },
-    {
-      id: 6,
+      id: 4,
       photo: Natalia,
       name: "Natalia",
       surname: "Fedotova",
       role: "teacher and motivator",
-    },
-    {
-      id: 7,
-      photo: Viktor,
-      name: "Viktor",
-      surname: "Turkevych",
-      role: "mentor",
-    },
-    {
-      id: 8,
-      role: null,
     },
   ],
 
