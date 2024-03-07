@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import { Home } from './src/Pages/Home'
-import { PrivacyPolicy } from './src/Pages/PrivacyPolicy'
+import { Home } from './Pages/Home'
+import { PrivacyPolicy } from './Pages/PrivacyPolicy'
 // import { Donate } from './Pages/Donate';
-import { NotFound } from './src/Pages/NotFound'
+import { NotFound } from './Pages/NotFound'
 
-import './src/i18n'
+import './i18n'
 
 function App() {
   return (
