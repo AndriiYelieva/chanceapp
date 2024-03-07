@@ -18,7 +18,7 @@ This project - is an innovative mobile application and website developed by a te
 
 ## Demo
 
-You can view a demo of my project at the following link: [Demo link](https://andriiyelieva.github.io/chance-app/).
+You can view a demo of my project at the following link: [Demo link](https://andriiyelieva.github.io/chanceapp/).
 
 
 ## Join us!
