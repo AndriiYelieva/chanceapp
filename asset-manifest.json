@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/chanceapp/static/css/main.12572bb5.css",
-    "main.js": "/chanceapp/static/js/main.908182f0.js",
-    "static/js/787.d37c55d1.chunk.js": "/chanceapp/static/js/787.d37c55d1.chunk.js",
+    "main.css": "/chanceapp/static/css/main.98053867.css",
+    "main.js": "/chanceapp/static/js/main.8b28104a.js",
+    "static/js/787.bfdd8e72.chunk.js": "/chanceapp/static/js/787.bfdd8e72.chunk.js",
     "static/media/abou-people-desktop.png": "/chanceapp/static/media/abou-people-desktop.c94240bb9012f21de8c9.png",
     "static/media/daily-tasks.png": "/chanceapp/static/media/daily-tasks.d0105a5a16fd5da86b1c.png",
     "static/media/medical-services.png": "/chanceapp/static/media/medical-services.cf3fba5848c79a52f344.png",
@@ -12,6 +12,7 @@
     "static/media/Natalia-Fedotova.png": "/chanceapp/static/media/Natalia-Fedotova.d082c227216fb18df573.png",
     "static/media/download-mobile.png": "/chanceapp/static/media/download-mobile.2eb9bc4bcc2206612c4a.png",
     "static/media/Ivan-Levytskyi.png": "/chanceapp/static/media/Ivan-Levytskyi.c03b402dd8fb2339b1b6.png",
+    "static/media/Viktor-Turkevych.png": "/chanceapp/static/media/Viktor-Turkevych.e0b4d11a53405555230a.png",
     "static/media/Andrii-Sukhmanovskyi.png": "/chanceapp/static/media/Andrii-Sukhmanovskyi.60d428219f74a2be1037.png",
     "static/media/qr-code-mobile.svg": "/chanceapp/static/media/qr-code-mobile.b986f863f19ba69bee191ebede3af054.svg",
     "static/media/qr-code-head.svg": "/chanceapp/static/media/qr-code-head.130a99f43c033c8e2fb3deacb235c979.svg",
@@ -54,12 +55,12 @@
     "static/media/vector-support-desktop.svg": "/chanceapp/static/media/vector-support-desktop.49791ed9ef8be6758cda.svg",
     "static/media/header-vector-desktop.svg": "/chanceapp/static/media/header-vector-desktop.f6d6eec3dee7d5d90cf0.svg",
     "static/media/header-vector.svg": "/chanceapp/static/media/header-vector.b6cde3ee27967abcbbe1.svg",
-    "main.12572bb5.css.map": "/chanceapp/static/css/main.12572bb5.css.map",
-    "main.908182f0.js.map": "/chanceapp/static/js/main.908182f0.js.map",
-    "787.d37c55d1.chunk.js.map": "/chanceapp/static/js/787.d37c55d1.chunk.js.map"
+    "main.98053867.css.map": "/chanceapp/static/css/main.98053867.css.map",
+    "main.8b28104a.js.map": "/chanceapp/static/js/main.8b28104a.js.map",
+    "787.bfdd8e72.chunk.js.map": "/chanceapp/static/js/787.bfdd8e72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12572bb5.css",
-    "static/js/main.908182f0.js"
+    "static/css/main.98053867.css",
+    "static/js/main.8b28104a.js"
   ]
 }
