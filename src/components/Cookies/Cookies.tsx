@@ -37,7 +37,7 @@ export const Cookies = () => {
           </p>
           <div className="cookies__buttons">
             <Link
-              to="/chanceapp/privacy-policy"
+              to="/privacy-policy"
               className="cookies__button cookies__button--more"
               onClick={() => {
                 hadleHideCookies()

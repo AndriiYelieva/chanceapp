@@ -54,7 +54,7 @@ export const Header = () => {
         <div className="header__nav--links">
           <Link
             className="header__logo"
-            to="/chanceapp/"
+            to="/"
             onClick={() => {
               setMenuVisible(false)
               scrollToTop()

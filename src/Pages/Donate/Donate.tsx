@@ -141,11 +141,11 @@ export const Donate = () => {
               />
               <p className="donate__info--title">Підтверджую, що згоден(-а)
                 з <Link
-                  to="/chanceapp/privacy-policy"
+                  to="/privacy-policy"
                   className="donate__info--link"
                 > Політикою конфіденційності
                 </Link> та <Link
-                  to="/chanceapp/privacy-policy"
+                  to="/privacy-policy"
                   className="donate__info--link"
                 > Умовами користування</Link></p>
             </label>

@@ -58,7 +58,7 @@ export const Footer = () => {
 
           <ul className="footer__menu--list">
             {navigationLinks.map(element => (
-              element.link === "/chanceapp/donate" ? (
+              element.link === "/donate" ? (
                 <Link
                   to={element.link}
                   className="footer__menu--link"
