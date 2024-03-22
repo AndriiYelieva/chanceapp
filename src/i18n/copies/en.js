@@ -158,9 +158,9 @@ export const en = {
     {
       id: 3,
       name: "interaction and communication",
-      description: "it is important to find an approach to everyone, so we create a barrier-free environment that helps in many ways",
+      description: "It is important to find an approach to everyone, which helps in many ways",
       photo: interactingAndChatting,
-      cheacks: ["navigation and maps", "tracking the blind", "gesture control"],
+      cheacks: ["navigation and maps", "tracking the blind" ],
     },
   ],
 
