@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import classNames from 'classnames';
 import andriiAvatar from "../../img/png/Andrii.png";
 import { Roles } from '../../Types/Roles';
 import 'swiper/css/pagination';
