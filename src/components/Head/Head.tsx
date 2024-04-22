@@ -10,7 +10,7 @@ import mate from "../../img/partner-Mate.svg";
 import baza from "../../img/partner-Baza.svg";
 import qrCode from "../../img/qr-code-head.svg";
 import { socialNetworks } from '../../constants/social';
-import { PRESENTATION } from '../../constants/presentation';
+import { DownloadTheApp } from '../../constants/presentation';
 const bazaLink = "https://baza-trainee.tech/ua";
 const mateLink = "https://mate.academy";
 
@@ -73,7 +73,7 @@ export const Head = () => {
 
         <div className="head__code">
           <Link
-            to={PRESENTATION.link}
+            to={DownloadTheApp.link}
             target="_blank"
             className="head__code--qr"
           >
@@ -83,7 +83,7 @@ export const Head = () => {
               className="head__code--image"
             />
             <p className="head__code--title">
-              {t("application presentation")}
+              {t("download the app")}
             </p>
           </Link>
         </div>

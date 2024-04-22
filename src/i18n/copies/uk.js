@@ -45,7 +45,7 @@ export const uk = {
   "supported by": "за підтримки",
   "creating changes": "створюємо зміни",
   "in people’s lives": "у житті людей",
-  "application presentation": "презентація застосунку",
+  "download the app": "Завантажуй застосунок",
 
   "It’s": "це",
   "about humans": "про людей",

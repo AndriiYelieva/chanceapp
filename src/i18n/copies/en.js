@@ -45,7 +45,7 @@ export const en = {
   "supported by": "supported by",
   "creating changes": "creating changes",
   "in people’s lives": "in people’s lives",
-  "application presentation": "application presentation",
+  "download the app": "download the app",
 
   "It’s": "It’s",
   "about humans": "about humans",

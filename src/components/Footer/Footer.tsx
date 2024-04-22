@@ -6,7 +6,7 @@ import powerInPeople from "../../img/png/footer-power.png";
 import qrCode from "../../img/qr-code-mobile.svg";
 import { socialNetworks } from '../../constants/social';
 import { scrollToTop } from '../../helper/ScrollToTop.js';
-import { PRESENTATION } from '../../constants/presentation';
+import { DownloadTheApp } from '../../constants/presentation';
 import { Navigation } from '../../Types/Navigation';
 import { InfoFooter } from '../../Types/InfoFooter';
 import './footer.scss';
@@ -86,7 +86,7 @@ export const Footer = () => {
           </p>
 
           <Link
-            to={PRESENTATION.link}
+            to={DownloadTheApp.link}
             target="_blank"
             className="footer__download--qr"
           >
@@ -103,7 +103,7 @@ export const Footer = () => {
 
           {infoFooter.map(element => (
             element.link === null ? (
-              <p className="footer__down--link">
+              <p className="footer__down--link" key={element.title}>
                 {element.title}
               </p>
             ) : (
