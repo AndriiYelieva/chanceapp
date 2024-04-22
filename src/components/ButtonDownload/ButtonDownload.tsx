@@ -2,22 +2,21 @@ import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 
 import { Size } from "../../Types/Size"
-import "./buttonPresentation.scss"
+import "./buttonDownload.scss"
+import { DOWNLOAD } from "../../constants/download"
 
 type Props = {
   size: string,
 }
 
-const PRESENTATION = "https://docs.google.com/presentation/d/15ILv28ILhuL8ng5TjiTDBk4Wiw50ftaq/"
-
-export const ButtonPresentation: React.FC<Props> = ({ size }) => {
+export const ButtonDownload: React.FC<Props> = ({ size }) => {
   const { t } = useTranslation();
 
   return (
     <>
       {size === Size.Small ? (
         <Link
-          to={PRESENTATION}
+          to={DOWNLOAD.link}
           className="presentation presentation__button"
           target="_blank"
         >
@@ -26,7 +25,7 @@ export const ButtonPresentation: React.FC<Props> = ({ size }) => {
       ) : size === Size.Medium ? (
         (
           <Link
-            to={PRESENTATION}
+            to={DOWNLOAD.link}
             className="presentation__medium presentation__button"
             target="_blank"
           >
@@ -35,7 +34,7 @@ export const ButtonPresentation: React.FC<Props> = ({ size }) => {
         )) : (
         (
           <Link
-            to={PRESENTATION}
+            to={DOWNLOAD.link}
             className="presentation__large presentation__button"
             target="_blank"
           >

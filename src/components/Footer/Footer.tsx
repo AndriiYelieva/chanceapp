@@ -6,7 +6,7 @@ import powerInPeople from "../../img/png/footer-power.png";
 import qrCode from "../../img/qr-code-mobile.svg";
 import { socialNetworks } from '../../constants/social';
 import { scrollToTop } from '../../helper/ScrollToTop.js';
-import { DownloadTheApp } from '../../constants/presentation';
+import { DOWNLOAD } from '../../constants/download';
 import { Navigation } from '../../Types/Navigation';
 import { InfoFooter } from '../../Types/InfoFooter';
 import './footer.scss';
@@ -86,7 +86,7 @@ export const Footer = () => {
           </p>
 
           <Link
-            to={DownloadTheApp.link}
+            to={DOWNLOAD.link}
             target="_blank"
             className="footer__download--qr"
           >

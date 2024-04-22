@@ -4,13 +4,13 @@ import { useTranslation } from 'react-i18next';
 import './head.scss';
 import { Size } from '../../Types/Size';
 // import { ButtonSupport } from '../ButtonSupport';
-import { ButtonPresentation } from '../ButtonPresentation';
+import { ButtonDownload } from '../ButtonDownload';
 import man from "../../img/png/headerMan.png";
 import mate from "../../img/partner-Mate.svg";
 import baza from "../../img/partner-Baza.svg";
 import qrCode from "../../img/qr-code-head.svg";
 import { socialNetworks } from '../../constants/social';
-import { DownloadTheApp } from '../../constants/presentation';
+import { DOWNLOAD } from '../../constants/download';
 const bazaLink = "https://baza-trainee.tech/ua";
 const mateLink = "https://mate.academy";
 
@@ -31,7 +31,7 @@ export const Head = () => {
         
         <div className="head__heading--buttons">
           {/* <ButtonSupport size={Size.Medium} /> */}
-          <ButtonPresentation size={Size.Medium} />
+          <ButtonDownload size={Size.Medium} />
         </div>
 
         <div className="head__partners">
@@ -73,7 +73,7 @@ export const Head = () => {
 
         <div className="head__code">
           <Link
-            to={DownloadTheApp.link}
+            to={DOWNLOAD.link}
             target="_blank"
             className="head__code--qr"
           >
