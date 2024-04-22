@@ -82,7 +82,7 @@ export const Footer = () => {
 
         <div className="footer__download">
           <p className="footer__download--text">
-            {t("qrCode")}
+            {t("download the app")}
           </p>
 
           <Link

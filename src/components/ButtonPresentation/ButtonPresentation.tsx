@@ -21,7 +21,7 @@ export const ButtonPresentation: React.FC<Props> = ({ size }) => {
           className="presentation presentation__button"
           target="_blank"
         >
-          {t("downloadPresentation")}
+          {t("download the app")}
         </Link>
       ) : size === Size.Medium ? (
         (
@@ -30,7 +30,7 @@ export const ButtonPresentation: React.FC<Props> = ({ size }) => {
             className="presentation__medium presentation__button"
             target="_blank"
           >
-            {t("downloadPresentation")}
+            {t("download the app")}
           </Link>
         )) : (
         (
@@ -39,7 +39,7 @@ export const ButtonPresentation: React.FC<Props> = ({ size }) => {
             className="presentation__large presentation__button"
             target="_blank"
           >
-            {t("downloadPresentation")}
+            {t("download the app")}
           </Link>
         ))}
     </>

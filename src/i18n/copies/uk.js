@@ -40,7 +40,6 @@ export const uk = {
     }
   ],
 
-  "downloadPresentation": "завантажити презентацію",
   "For everyone in need": "для всіх, хто потребує",
   "supported by": "за підтримки",
   "creating changes": "створюємо зміни",
@@ -246,8 +245,6 @@ export const uk = {
   "application for people": "застосунок для людей",
   "answer all your questions": "відповімо на всі ваші питання",
   "chance app is a non-profit project": "chance app — учнівський проєкт, який створює застосунок для допомоги людям з обмеженими можливостями фізичного руху, незрячим людям, людям з вадами слуху та близьким родичам і опікунам",
-
-  "qrCode": "завантажити презентацію про застосунок",
 
   "infoFooter": [
     {

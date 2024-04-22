@@ -40,7 +40,6 @@ export const en = {
     }
   ],
 
-  "downloadPresentation": "download presentation",
   "For everyone in need": "for everyone in need",
   "supported by": "supported by",
   "creating changes": "creating changes",
@@ -245,8 +244,6 @@ export const en = {
   "application for people": "application for people",
   "answer all your questions": "answer all your questions",
   "chance app is a non-profit project": "chance app is a non-profit project that creates an application to help people with mobility impairments, blind people, people with hearing impairments, and close relatives and carers",
-
-  "qrCode": "download a presentation about the app",
 
   "infoFooter": [
     {
