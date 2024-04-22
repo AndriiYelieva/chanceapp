@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4296b862.css",
-    "main.js": "/static/js/main.b77bb5db.js",
+    "main.js": "/static/js/main.ccd388ef.js",
     "static/js/787.bfdd8e72.chunk.js": "/static/js/787.bfdd8e72.chunk.js",
     "static/media/abou-people-desktop.png": "/static/media/abou-people-desktop.c94240bb9012f21de8c9.png",
     "static/media/daily-tasks.png": "/static/media/daily-tasks.d0105a5a16fd5da86b1c.png",
@@ -55,11 +55,11 @@
     "static/media/header-vector-desktop.svg": "/static/media/header-vector-desktop.f6d6eec3dee7d5d90cf0.svg",
     "static/media/header-vector.svg": "/static/media/header-vector.b6cde3ee27967abcbbe1.svg",
     "main.4296b862.css.map": "/static/css/main.4296b862.css.map",
-    "main.b77bb5db.js.map": "/static/js/main.b77bb5db.js.map",
+    "main.ccd388ef.js.map": "/static/js/main.ccd388ef.js.map",
     "787.bfdd8e72.chunk.js.map": "/static/js/787.bfdd8e72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4296b862.css",
-    "static/js/main.b77bb5db.js"
+    "static/js/main.ccd388ef.js"
   ]
 }
