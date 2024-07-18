@@ -208,7 +208,7 @@ export const en = {
       id: 1,
       isShow: false,
       question: "where did the project idea come from?",
-      answer: "Our business idea was born during the summer holidays. While walking around the city, we came across people with disabilities. We wondered how people with disabilities cope in everyday life. \n \n They appeared to be very resilient and strong, but we also noticed that they faced numerous obstacles. This case inspired us to think about creating an app that could make their everyday life easier by helping them find a job and access the right medical services. \n \n Our goal is to create a tool that will be part of the solution to these problems and contribute to a more accessible and inclusive world for people with disabilities.",
+      answer: "The idea came about spontaneously during our participation in the Kompaniya program. Our team was looking for an idea that would be useful and relevant. We observed the difficulties faced by our relatives and friends with disabilities and realized that many problems could be solved with the help of modern technologies",
     },
     {
       id: 2,
