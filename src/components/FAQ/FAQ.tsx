@@ -16,6 +16,7 @@ export const FAQ = () => {
     newAnswers[index].isShow = !newAnswers[index].isShow;
     setIsAnswers(newAnswers);
   }
+  
   return (
     <section className="faq" id="faq">
       <h3 className="faq__answer">{t("answering the most")}</h3>
