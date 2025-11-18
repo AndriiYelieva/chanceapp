@@ -1,4 +1,4 @@
-\## Chance app project
+## Chance app project
 
 **Project Description**
 
