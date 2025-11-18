@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 
 import { Home } from './Pages/Home'
 import { PrivacyPolicy } from './Pages/PrivacyPolicy'
@@ -10,16 +10,16 @@ import './i18n'
 
 function App() {
   return (
-    <BrowserRouter  >
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         {/* <Route path="/donate" element={<Donate />}/> */}
-        <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
-        <Route path="/terms-of-use" element={<PrivacyPolicy />}/>
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-of-use" element={<PrivacyPolicy />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
