@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chanceapp/static/css/main.7bd3fa4e.css",
-    "main.js": "/chanceapp/static/js/main.1937fada.js",
-    "static/js/787.69fec6ad.chunk.js": "/chanceapp/static/js/787.69fec6ad.chunk.js",
+    "main.js": "/chanceapp/static/js/main.582a797e.js",
+    "static/js/787.bfdd8e72.chunk.js": "/chanceapp/static/js/787.bfdd8e72.chunk.js",
     "static/media/abou-people-desktop.png": "/chanceapp/static/media/abou-people-desktop.c94240bb9012f21de8c9.png",
     "static/media/daily-tasks.png": "/chanceapp/static/media/daily-tasks.d0105a5a16fd5da86b1c.png",
     "static/media/medical-services.png": "/chanceapp/static/media/medical-services.cf3fba5848c79a52f344.png",
@@ -56,11 +56,11 @@
     "static/media/header-vector-desktop.svg": "/chanceapp/static/media/header-vector-desktop.f49ff5efc5577f4ecc93.svg",
     "static/media/header-vector.svg": "/chanceapp/static/media/header-vector.648f672a5801f870250b.svg",
     "main.7bd3fa4e.css.map": "/chanceapp/static/css/main.7bd3fa4e.css.map",
-    "main.1937fada.js.map": "/chanceapp/static/js/main.1937fada.js.map",
-    "787.69fec6ad.chunk.js.map": "/chanceapp/static/js/787.69fec6ad.chunk.js.map"
+    "main.582a797e.js.map": "/chanceapp/static/js/main.582a797e.js.map",
+    "787.bfdd8e72.chunk.js.map": "/chanceapp/static/js/787.bfdd8e72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bd3fa4e.css",
-    "static/js/main.1937fada.js"
+    "static/js/main.582a797e.js"
   ]
 }
