@@ -4,13 +4,13 @@ import { useTranslation } from 'react-i18next';
 import './head.scss';
 import { Size } from '../../Types/Size';
 // import { ButtonSupport } from '../ButtonSupport';
-import { ButtonDownload } from '../ButtonDownload';
+import { ButtonPresentation } from '../ButtonPresentation';
 import man from "../../img/png/headerMan.png";
 import mate from "../../img/partner-Mate.svg";
 import baza from "../../img/partner-Baza.svg";
 import qrCode from "../../img/qr-code-head.svg";
 import { socialNetworks } from '../../constants/social';
-import { DOWNLOAD } from '../../constants/download';
+import { PRESENTATION } from '../../constants/presentation';
 const bazaLink = "https://baza-trainee.tech/ua";
 const mateLink = "https://mate.academy";
 
@@ -31,7 +31,7 @@ export const Head = () => {
         
         <div className="head__heading--buttons">
           {/* <ButtonSupport size={Size.Medium} /> */}
-          <ButtonDownload size={Size.Medium} />
+          <ButtonPresentation size={Size.Medium} />
         </div>
 
         <div className="head__partners">
@@ -73,7 +73,7 @@ export const Head = () => {
 
         <div className="head__code">
           <Link
-            to={DOWNLOAD.link}
+            to={PRESENTATION.link}
             target="_blank"
             className="head__code--qr"
           >
@@ -83,7 +83,7 @@ export const Head = () => {
               className="head__code--image"
             />
             <p className="head__code--title">
-              {t("download the app")}
+              {t("application presentation")}
             </p>
           </Link>
         </div>

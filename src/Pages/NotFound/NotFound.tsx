@@ -17,7 +17,7 @@ export const NotFound = () => {
         </h1>
 
         <Link
-          to="/"
+          to="/chance-app/"
           className="notFound__button"
           onClick={scrollToTop}
         >

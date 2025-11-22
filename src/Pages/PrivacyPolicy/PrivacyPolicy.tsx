@@ -19,7 +19,7 @@ export const PrivacyPolicy = () => {
       <section className="privacy">
         <div className="privacy__wrapper">
           <Link
-            to="/"
+            to="/chance-app/"
             className="privacy privacy__button"
             onClick={scrollToTop}
           >

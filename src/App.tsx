@@ -1,5 +1,6 @@
 import React from 'react'
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 import { Home } from './Pages/Home'
 import { PrivacyPolicy } from './Pages/PrivacyPolicy'
 // import { Donate } from './Pages/Donate';
@@ -9,14 +10,16 @@ import './i18n'
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter  >
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/privacy-policy" element={<PrivacyPolicy />}/>
-        <Route path="/terms-of-use" element={<PrivacyPolicy />}/>
+        <Route path="/chance-app/" element={<Home />}></Route>
+        {/* <Route path="/chance-app/donate" element={<Donate />}/> */}
+        <Route path="/chance-app/privacy-policy" element={<PrivacyPolicy />}/>
+        <Route path="/chance-app/terms-of-use" element={<PrivacyPolicy />}/>
+
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

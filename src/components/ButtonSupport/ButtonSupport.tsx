@@ -13,7 +13,7 @@ export const ButtonSupport: React.FC<Props> = ({ size }) => {
     <>
       {size === Size.Small ? (
         <Link
-          to="/donate"
+          to="/chance-app/donate"
           className="button button__support"
           onClick={scrollToTop}
         >
@@ -22,7 +22,7 @@ export const ButtonSupport: React.FC<Props> = ({ size }) => {
       ) : size === Size.Medium ? (
         (
           <Link
-          to="/donate"
+          to="/chance-app/donate"
           className="button__medium button__support"
           onClick={scrollToTop}
         >
@@ -31,7 +31,7 @@ export const ButtonSupport: React.FC<Props> = ({ size }) => {
         )) : (
         (
           <Link
-          to="/donate"
+          to="/chance-app/donate"
           className="button__large button__support"
           onClick={scrollToTop}
         >

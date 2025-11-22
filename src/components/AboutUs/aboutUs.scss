@@ -124,14 +124,40 @@
   }
 
   &__list {
-    margin-top: 64px;
+    &--mobile {
+      margin-top: 64px;
 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
 
-    @include onTablet {
-      margin-top: 80px;
+      @include onTablet {
+        margin-top: 80px;
+      }
+
+      @include onDesktop {
+        display: none;
+      }
+    }
+
+    &--desktop {
+      display: none;
+
+      justify-content: center;
+      flex-wrap: wrap;
+
+      gap: 40px 20px;
+      margin-top: 100px;
+
+      @include onDesktop {
+        display: flex;
+      }
+    }
+  }
+
+  &__swiper {
+    @include onDesktop {
+      display: none;
     }
   }
 
@@ -143,24 +169,8 @@
       width: 296px;
       height: 526px;
 
-    }
-
-    @include onMaxDesktop {
-      width: 346px;
-    }
-
-    &--photo {
-      height: 264px;
-
-      border-radius: 16px;
-
-      @include onDesktop {
-        height: 400px;
-
-        &:hover {
-          transform: scale(1.025);
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
+      &:hover {
+        transform: scale(1.05) ;
       }
     }
 

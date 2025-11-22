@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+import classNames from 'classnames';
 import andriiAvatar from "../../img/png/Andrii.png";
 import { Roles } from '../../Types/Roles';
 import 'swiper/css/pagination';
@@ -45,7 +46,7 @@ export const AboutUs = () => {
         </div>
       </div>
 
-      <ul className="about__list">
+      <ul className="about__list--mobile">
         <Swiper
           slidesPerView={'auto'}
           spaceBetween={16}
@@ -56,21 +57,55 @@ export const AboutUs = () => {
         >
           {Roles.map(element => (
             <SwiperSlide
-              className="about__slide"
+              className={classNames({
+                "about__slide": element.role !== null,
+                "about__slide--none": element.role === null,
+              })}
               key={element.id}
             >
-              <img
-                className="about__slide--photo"
-                src={element.photo}
-                alt={element.name}
-              />
-              <h2 className="about__slide--name">{element.name}</h2>
-              <h2 className="about__slide--surname">{element.surname}</h2>
+              {element.role !== null && (
+                <>
+                  <img
+                    className="about__slide--photo"
+                    src={element.photo}
+                    alt={element.name}
+                  />
+                  <h2 className="about__slide--name">{element.name}</h2>
+                  <h2 className="about__slide--surname">{element.surname}</h2>
 
-              <p className="about__slide--role">{element.role}</p>
+                  <p className="about__slide--role">{element.role}</p>
+                </>
+              )}
             </SwiperSlide>
           ))}
         </Swiper>
+      </ul>
+      <ul className="about__list--desktop">
+        {Roles.map(element => (
+          <div
+            className={classNames({
+              "about__slide": element.role !== null,
+              "about__slide--none": element.role === null,
+            })}
+            key={element.id}
+          >
+            {element.role !== null ? (
+              <>
+                <img
+                  className="about__slide--photo"
+                  src={element.photo}
+                  alt={element.name}
+                />
+                <h2 className="about__slide--name">{element.name}</h2>
+                <h2 className="about__slide--surname">{element.surname}</h2>
+
+                <p className="about__slide--role">{element.role}</p>
+              </>
+            ) : (
+              <></>
+            )}
+          </div>
+        ))}
       </ul>
     </section >
   );

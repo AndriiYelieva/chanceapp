@@ -6,7 +6,7 @@ import powerInPeople from "../../img/png/footer-power.png";
 import qrCode from "../../img/qr-code-mobile.svg";
 import { socialNetworks } from '../../constants/social';
 import { scrollToTop } from '../../helper/ScrollToTop.js';
-import { DOWNLOAD } from '../../constants/download';
+import { PRESENTATION } from '../../constants/presentation';
 import { Navigation } from '../../Types/Navigation';
 import { InfoFooter } from '../../Types/InfoFooter';
 import './footer.scss';
@@ -58,7 +58,7 @@ export const Footer = () => {
 
           <ul className="footer__menu--list">
             {navigationLinks.map(element => (
-              element.link === "/donate" ? (
+              element.link === "/chance-app/donate" ? (
                 <Link
                   to={element.link}
                   className="footer__menu--link"
@@ -82,11 +82,11 @@ export const Footer = () => {
 
         <div className="footer__download">
           <p className="footer__download--text">
-            {t("download the app")}
+            {t("qrCode")}
           </p>
 
           <Link
-            to={DOWNLOAD.link}
+            to={PRESENTATION.link}
             target="_blank"
             className="footer__download--qr"
           >
@@ -103,7 +103,9 @@ export const Footer = () => {
 
           {infoFooter.map(element => (
             element.link === null ? (
-              <p className="footer__down--link" key={element.title}>
+              <p className="footer__down--link"
+                key={element.title}
+              >
                 {element.title}
               </p>
             ) : (

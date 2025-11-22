@@ -68,6 +68,7 @@
     }
 
     &--default {
+      bottom: auto;
       background-color: $color--Beige-300;
       background-repeat: no-repeat;
       background-position: center;
@@ -91,6 +92,12 @@
   &__element {
     padding: 12px 16px;
     margin-bottom: 8px;
+
+    &--paragraph {
+      margin: 0;
+      text-indent: 0;
+      list-style-type: none;
+    }
 
     &--isShow {
       border-radius: 16px;

@@ -15,36 +15,38 @@ import Andrii from "../../img/png/Andrii-Sukhmanovskyi.png";
 import Ivan from "../../img/png/Ivan-Levytskyi.png";
 import Sofia from "../../img/png/Sofia-Mandziuk.png";
 import Natalia from "../../img/png/Natalia-Fedotova.png";
+import Viktor from "../../img/png/Viktor-Turkevych.png";
 
 export const uk = {
   "navigation": [
     {
       "title": "для кого",
-      "link": "/#about-people",
+      "link": "/chance-app/#about-people",
     },
     {
       "title": "можливості",
-      "link": "/#opportunity",
+      "link": "/chance-app/#opportunity",
     },
     {
       "title": "про нас",
-      "link": "/#about-us",
+      "link": "/chance-app/#about-us",
     },
     {
       "title": "питання",
-      "link": "/#faq",
+      "link": "/chance-app/#faq",
     },
     {
       "title": "контакти",
-      "link": "/#contacts",
+      "link": "/chance-app/#contacts",
     }
   ],
 
+  "downloadPresentation": "завантажити презентацію",
   "For everyone in need": "для всіх, хто потребує",
   "supported by": "за підтримки",
   "creating changes": "створюємо зміни",
   "in people’s lives": "у житті людей",
-  "download the app": "Завантажуй застосунок",
+  "application presentation": "презентація застосунку",
 
   "It’s": "це",
   "about humans": "про людей",
@@ -157,9 +159,9 @@ export const uk = {
     {
       id: 3,
       name: "взаємодія та пілкування",
-      description: "важливо знайти підхід до кожного, яка допомогає у багатьох справах",
+      description: "важливо знайти підхід до кожного, тому ми формуємо безбар’єрну середу, яка допомогає у багатьох справах:",
       photo: interactingAndChatting,
-      cheacks: ["навігація та карти", "відстеження незрячих"],
+      cheacks: ["навігація та карти", "відстеження незрячих", "керування жестами"],
     },
   ],
 
@@ -179,24 +181,43 @@ export const uk = {
     },
     {
       id: 2,
+      role: null,
+    },
+    {
+      id: 3,
       photo: Ivan,
       name: "Іван",
       surname: "Левицький",
       role: "фінансовий директор",
     },
     {
-      id: 3,
+      id: 4,
       photo: Sofia,
       name: "Софія",
       surname: "Мандзюк",
       role: "директор з маркетингу",
     },
     {
-      id: 4,
+      id: 5,
+      role: null,
+    },
+    {
+      id: 6,
       photo: Natalia,
       name: "Наталя",
       surname: "Федотова",
       role: "викладач та мотиватор",
+    },
+    {
+      id: 7,
+      photo: Viktor,
+      name: "Віктор",
+      surname: "Туркевич",
+      role: "ментор",
+    },
+    {
+      id: 8,
+      role: null,
     },
   ],
 
@@ -209,7 +230,7 @@ export const uk = {
       id: 1,
       isShow: false,
       question: "звідки взялась ідея проєкту?",
-      answer: "Ідея виникла спонтанно під час нашої участі у програмі 'Компанія'. Наша команда шукала ідею, реалізація якої була б корисною та актуально. Ми спостерігали за труднощами, з якими стикаються наші близькі та знайомі з інвалідністю, і зрозуміли, що багато проблем можна вирішити за допомогою сучасних технологій",
+      answer: "Наша бізнес-ідея зародилася під час літніх канікул. Гуляючи містом, ми натрапили на людей з інвалідністю. Нам стало цікаво, як люди з інвалідністю справляються в повсякденному житті?\n\n  Вони виявилися дуже витривалими та сильними, але ми також помітили, що вони зіштовхуються з численними перешкодами. Цей випадок надихнув нас подумати про створення застосунку, який міг би полегшити їхнє повсякдення, допомагаючи знайти роботу та отримати доступ до потрібних медичних сервісів.\n\n   Наша мета — створити інструмент, який стане частиною рішення цих проблем та сприятиме створенню більш доступного і інклюзивного світу для людей з інвалідністю.",
     },
     {
       id: 2,
@@ -246,6 +267,8 @@ export const uk = {
   "answer all your questions": "відповімо на всі ваші питання",
   "chance app is a non-profit project": "chance app — учнівський проєкт, який створює застосунок для допомоги людям з обмеженими можливостями фізичного руху, незрячим людям, людям з вадами слуху та близьким родичам і опікунам",
 
+  "qrCode": "завантажити презентацію про застосунок",
+
   "infoFooter": [
     {
       title: "©2024 Chance app. Усі права захищені",
@@ -253,11 +276,11 @@ export const uk = {
     },
     {
       title: "Політика конфіденційності",
-      link: "/privacy-policy",
+      link: "/chance-app/privacy-policy",
     },
     {
       title: "Умови користування",
-      link: "/terms-of-use",
+      link: "/chance-app/terms-of-use",
     },
     {
       title: "дизайн від @yasdubin",

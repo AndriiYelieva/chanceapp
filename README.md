@@ -18,7 +18,7 @@ This project - is an innovative mobile application and website developed by a te
 
 ## Demo
 
-You can view a demo of my project at the following link: [Demo link](https://andriiyelieva.github.io/chanceapp/).
+You can view a demo of my project at the following link: [Demo link](https://andriiyelieva.github.io/chance-app/).
 
 
 ## Join us!
@@ -50,5 +50,4 @@ Thank you for your support!
 - [JavaScript](https://github.com/airbnb/javascript)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Redux](https://redux.js.org/)
-- [i18next](https://www.i18next.com/)
 - [Sass](https://sass-lang.com/)

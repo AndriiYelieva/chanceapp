@@ -15,36 +15,38 @@ import Andrii from "../../img/png/Andrii-Sukhmanovskyi.png";
 import Ivan from "../../img/png/Ivan-Levytskyi.png";
 import Sofia from "../../img/png/Sofia-Mandziuk.png";
 import Natalia from "../../img/png/Natalia-Fedotova.png";
+import Viktor from "../../img/png/Viktor-Turkevych.png";
 
 export const en = {
   "navigation": [
     {
       "title": "for whom",
-      "link": "/#about-people",
+      "link": "/chance-app/#about-people",
     },
     {
       "title": "features",
-      "link": "/#opportunity",
+      "link": "/chance-app/#opportunity",
     },
     {
       "title": "about",
-      "link": "/#about-us",
+      "link": "/chance-app/#about-us",
     },
     {
       "title": "questions",
-      "link": "/#faq",
+      "link": "/chance-app/#faq",
     },
     {
       "title": "contacts",
-      "link": "/#contacts",
+      "link": "/chance-app/#contacts",
     }
   ],
 
+  "downloadPresentation": "download presentation",
   "For everyone in need": "for everyone in need",
   "supported by": "supported by",
   "creating changes": "creating changes",
   "in people’s lives": "in people’s lives",
-  "download the app": "download the app",
+  "application presentation": "application presentation",
 
   "It’s": "It’s",
   "about humans": "about humans",
@@ -157,9 +159,9 @@ export const en = {
     {
       id: 3,
       name: "interaction and communication",
-      description: "it is important to find an approach to everyone, which helps in many ways",
+      description: "it is important to find an approach to everyone, so we create a barrier-free environment that helps in many ways",
       photo: interactingAndChatting,
-      cheacks: ["navigation and maps", "tracking the blind" ],
+      cheacks: ["navigation and maps", "tracking the blind", "gesture control"],
     },
   ],
 
@@ -179,24 +181,43 @@ export const en = {
     },
     {
       id: 2,
+      role: null,
+    },
+    {
+      id: 3,
       photo: Ivan,
       name: "Ivan",
       surname: "Levytskyi",
       role: "financial manager",
     },
     {
-      id: 3,
+      id: 4,
       photo: Sofia,
       name: "Sofia",
       surname: "Mandziuk",
       role: "marketing manager",
     },
     {
-      id: 4,
+      id: 5,
+      role: null,
+    },
+    {
+      id: 6,
       photo: Natalia,
       name: "Natalia",
       surname: "Fedotova",
       role: "teacher and motivator",
+    },
+    {
+      id: 7,
+      photo: Viktor,
+      name: "Viktor",
+      surname: "Turkevych",
+      role: "mentor",
+    },
+    {
+      id: 8,
+      role: null,
     },
   ],
 
@@ -208,7 +229,7 @@ export const en = {
       id: 1,
       isShow: false,
       question: "where did the project idea come from?",
-      answer: "The idea came about spontaneously during our participation in the Kompaniya program. Our team was looking for an idea that would be useful and relevant. We observed the difficulties faced by our relatives and friends with disabilities and realized that many problems could be solved with the help of modern technologies",
+      answer: "Our business idea was born during the summer holidays. While walking around the city, we came across people with disabilities. We wondered how people with disabilities cope in everyday life. \n \n They appeared to be very resilient and strong, but we also noticed that they faced numerous obstacles. This case inspired us to think about creating an app that could make their everyday life easier by helping them find a job and access the right medical services. \n \n Our goal is to create a tool that will be part of the solution to these problems and contribute to a more accessible and inclusive world for people with disabilities.",
     },
     {
       id: 2,
@@ -245,6 +266,8 @@ export const en = {
   "answer all your questions": "answer all your questions",
   "chance app is a non-profit project": "chance app is a non-profit project that creates an application to help people with mobility impairments, blind people, people with hearing impairments, and close relatives and carers",
 
+  "qrCode": "download a presentation about the app",
+
   "infoFooter": [
     {
       title: "©2024 ChanceApp. All rights reserved",
@@ -252,11 +275,11 @@ export const en = {
     },
     {
       title: "Privacy Policy",
-      link: "/privacy-policy",
+      link: "/chance-app/privacy-policy",
     },
     {
       title: "Terms of Use",
-      link: "/terms-of-use",
+      link: "/chance-app/terms-of-use",
     },
     {
       title: "design by @yasdubin",
